@@ -5,6 +5,7 @@ public class BgJepDay11 {
         Scanner ah = new Scanner(System.in);
         System.out.print("Masukkan kredit: ");
         String h = ah .nextLine();
+        System.out.println("Kredit saya: "+h);
         
     }
     
