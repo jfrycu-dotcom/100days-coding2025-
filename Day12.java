@@ -1,24 +1,23 @@
 import java.util.Scanner;
-
-public class BgJepDay12{  
+public class Ai_soalJeff {
     public static void main(String[] args) {
-        Scanner ah = new Scanner(System.in);
-        System.out.print("Masukkan nama: ");
-        String nama = ah .nextLine();
-        System.out.print("Masukkan NIM: ");
-        String nim = ah.nextLine();
-        System.out.print("Masukkan kelas: ");
-        String kelas = ah.nextLine();
-        System.out.print("Asal dari mana; ");
-        String asal = ah.nextLine();
-        System.out.print("Alumni dari mana: ");
-        String alumni = ah.nextLine();
+//DAY 12 BROK
+        
+        //Scanner digunakan, supaya bisaki kasi masuk kayak 
+        //teks atau angka di outputnya
+        Scanner in = new Scanner(System.in);
+        //String digunakan untuk teks aja
+        System.out.print("Masukkan nama: "); 
+        String nama = in.nextLine();
+        //byte digunakan untuk angka, tapi angka yang ditampungnya hanya sedikit
+        System.out.print("Masukkan umur: ");
+        byte umur = in.nextByte();
+        System.out.print("Masukkan Tinggi: ");
+        double tinggi = in.nextDouble();
         System.out.println();
-        System.out.println("Nama saya adalah "+nama);
-        System.out.println("NIM saya "+nim);
-        System.out.println("Saya kelas "+kelas);
-        System.out.println("Saya berasal dari "+asal);
-        System.out.println("Saya alumni dari "+alumni);
+        System.out.println("Nama saya adalah = "+nama);
+        System.out.print("Umur saya adalah = "+umur+" tahun");
+        System.out.printf("\nTinggi saya adalah = "+tinggi+" sentimeter\n");     
     }
     
 }
