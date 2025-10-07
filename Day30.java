@@ -13,6 +13,6 @@ public class DdpJava08 {
         boolean perbandingan = a >= b;
         boolean lagi = a<=b;
         System.out.println("apakah si A lebih besar dari B?? "+perbandingan);
-        System.out.println("apakah si B lebih kicik dari B?? "+lagi);
+        System.out.println("apakah si B lebih kicik dari A?? "+lagi);
     }
 }
