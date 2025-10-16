@@ -16,19 +16,19 @@ public class kalkulator {
         double c = 0;
         if(op.equals("+")){
             c = a+b;
-            System.out.printf("Hasil penjumlahan: %.0f ",c);
+            System.out.printf("Hasil penjumlahan: %.2f ",c);
         }else if (op.equals("-")) {
             c = a-b;
-            System.out.printf("Hasil pengurangan: %.0f",c);
+            System.out.printf("Hasil pengurangan: %.2f",c);
         }else if (op.equals("/")) {
             c = a/b;
-            System.out.printf("Hasil pembagian: %.0f",c);
+            System.out.printf("Hasil pembagian: %.2f",c);
         }else if (op.equals("*")) {
             c = a*b;
-            System.out.printf("Hasil perkalian: %.0f",c);
+            System.out.printf("Hasil perkalian: %.2f",c);
         }else if (op.equals("%")) {
             c = a%b;
-            System.out.printf("Hasil modulus: %.0f",c);
+            System.out.printf("Hasil modulus: %.2f",c);
         }
         
     }
