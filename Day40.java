@@ -22,7 +22,7 @@ public class kalkulator {
             System.out.printf("Hasil pengurangan: %.0f",c);
         }else if (op.equals("/")) {
             c = a/b;
-            System.out.printf("Hasil pengurangan: %.0f",c);
+            System.out.printf("Hasil pembagian: %.0f",c);
         }else if (op.equals("*")) {
             c = a*b;
             System.out.printf("Hasil perkalian: %.0f",c);
