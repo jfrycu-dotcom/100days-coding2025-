@@ -29,6 +29,8 @@ public class kalkulator {
         }else if (op.equals("%")) {
             c = a%b;
             System.out.printf("Hasil modulus: %.2f",c);
+        }else {
+            System.out.println("TIDAK VALIDDD");
         }
         
     }
