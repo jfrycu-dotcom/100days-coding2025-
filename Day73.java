@@ -1,0 +1,1 @@
+import java.util.Scanner;public class latihanSoall {public static void main(String[] args) {Scanner in = new Scanner(System.in);int b = 0;for (int i = 0; i > -1; i++) {int a = in.nextInt();if (a < 0)break;if (a >= 0)b += a;}System.out.println(b);}}
