@@ -12,11 +12,11 @@ public class NewClass {
             System.out.println(anu.replace("j", "p"));
         }else if (anu.contains("celsi")) {
             System.out.println(anu2);
-            System.out.println(anu.substring(3));
-            if (anu.equalsIgnoreCase("Jefri")) {
+            System.out.println(anu.substring(3
+        }
+        if (anu.equalsIgnoreCase("Jefri")) {
                 System.out.println("satu kata dan ini namaku jirr!!!");
-            }
-        }else   {
+        }else{
             System.out.println(anu.trim());
         }
   }  
